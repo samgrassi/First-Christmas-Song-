@@ -1,0 +1,251 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color:#a11f22;
+}
+.container {
+	width: 1280px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.tree {
+	position: absolute;
+	left:0;
+	top:0;
+}
+
+.ornament {
+	position: absolute;
+	z-index: 200;
+}
+
+.ornament p{
+	background:#3b5029;
+	height:20px;
+	display:none;
+	padding-top:5px;
+	padding-left:3px;
+	padding-right:3px;
+	padding-bottom:3px;
+	font-family: Nueva Std;
+	color: #ebceac;
+	outline-width:2px;
+	outline-style:solid;
+	outline-color:#a11e21;
+}
+
+.ornament:hover {
+	z-index:500;
+}
+
+.ornament:hover .info,
+.ornament:hover audio {
+	display:block;
+}
+
+.ornament audio {
+	display: none;
+}
+
+.ornament .info {
+	display: none;
+	position:absolute;
+}
+
+.first {
+	left: 660px;
+	top: 210px;
+}
+
+.first .info {
+	left: -590px;
+	top: -135px;
+}
+
+.second {
+	left:610px;
+	top:155px;
+}
+
+.second .info {
+	left:-548px;
+	top:-80px;
+}
+
+.third {
+	left:715px;
+	top:390px;
+}
+
+.third .info {
+	left:-651px;
+	top:-315;
+}
+
+.fourth {
+	left:553px;
+	top:358px;
+}
+
+.fourth .info {
+	left:-490px;
+	top:-283px;
+}
+.fifth {
+	left:670px;
+	top:420px;
+}
+
+.fifth .info {
+	left:-607px;
+	top:-345px;
+}
+.sixth {
+	left:645px;
+	top:340px;
+}
+
+.sixth .info {
+	left:-581px;
+	top:-265px;
+}
+
+.seventh {
+	left:560px;
+	top:280px;
+}
+
+.seventh .info {
+	left: -497px;
+	top: -203px;
+}
+
+.eighth {
+	left:715px;
+	top:515px;
+}
+
+.eighth .info {
+	left:-650px;
+	top:-438px;
+}
+
+.ninth {
+	left:555px;
+	top:455px;
+}
+
+.ninth .info {
+	left:-489px;
+	top:-380px;
+}
+
+.tenth {
+	left:530px;
+	top:405px;
+}
+
+.tenth .info {
+	left: -464px;
+	top: -330px;
+}
+.eleventh {
+	left: 580px;
+	top:210px;
+}
+
+.eleventh .info {
+	left: -516px;
+	top: -135px;
+}
+
+.twelfth {
+	left:650px;
+	top:500px;
+}
+
+.twelfth .info {
+	left:-588px;
+	top:-425px;
+}
+
+.thirteenth {
+	left:620px;
+	top:250px;
+}
+
+.thirteenth .info {
+	left: -550px;
+	top: -170px;
+}
+
+.fourteenth {
+	left:750px;
+	top:440px;
+}
+
+.fourteenth .info {
+	left:-687px;
+	top: -365px;
+}
+
+.fifteenth {
+	left:600px;
+	top:540px;
+}
+
+.fifteenth .info {
+	left:-534px;
+	top:-465px;
+}
+
+.sixteenth {
+	left:610px;
+	top:390px;
+}
+
+.sixteenth .info {
+	left: -550px;
+	top: -315px;
+}
+ 
+.seventeenth {
+	left:680px;
+	top:290px;
+}
+
+.seventeenth .info {
+	left:-616px;
+	top:-215px;
+}
+
+.eighteenth {
+	left:620px;
+	top:455px;
+}
+
+.eighteenth .info {
+	left: -554px;
+	top:-378px;
+}
+
+.nineteenth {
+	left:520px;
+	top:510px;
+}
+
+.nineteenth .info {
+	left:-460px;
+	top:-435px;
+}
+
+.twentieth {
+	left:750px;
+	top:520px;
+}
+
+.twentieth .info {
+	left:-687px;
+	top:-445px;
+}
